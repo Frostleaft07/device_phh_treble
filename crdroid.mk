@@ -18,3 +18,4 @@ TARGET_BOOT_ANIMATION_RES := 720
 # APN
 PRODUCT_PACKAGES += apns-conf.xml
 
+$(call inherit-product, vendor/extra/product.mk)
