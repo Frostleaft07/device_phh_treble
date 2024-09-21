@@ -8,7 +8,7 @@ $(call inherit-product, device/phh/treble/base.mk)
 $(call inherit-product, device/phh/treble/crdroid.mk)
 
 PRODUCT_NAME := Nightmare
-PRODUCT_DEVICE := nightmare
+PRODUCT_DEVICE := treble_arm64_bvN
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := nightmare
 
