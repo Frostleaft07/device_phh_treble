@@ -8,6 +8,8 @@ TARGET_NO_KERNEL_OVERRIDE := true
 TARGET_NO_KERNEL_IMAGE := true
 SELINUX_IGNORE_NEVERALLOWS := true
 
+PATH_OVERRIDE_SOONG := $(call inherit-product, vendor/lineage/config/BoardConfigSoong.mk)
+
 # OTA
 # PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 #    ro.system.ota.json_url=https://raw.githubusercontent.com/naz664/crDroid_gsi/14/ota.json
